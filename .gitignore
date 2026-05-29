@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secrets
+.env
+*.env
+.aws/
+credentials
+config/aws_credentials
+
+# AWS keys / certs
+*.pem
+*.key
+
+# Lambda temporary build/download files
+lambda_code.zip
+lambda_code_updated.zip
+lambda_url.txt
+lambda_downloaded/
+lambda_package/
+
+# Compressed generated test files
+*.gz
+
+# Generated alerts
+alerts/
+alerts.json
+
+# Backups
+*.bak
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log

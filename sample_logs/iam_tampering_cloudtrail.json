@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "eventTime": "2026-05-10T14:00:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateAccessKey",
+      "sourceIPAddress": "201.55.10.99",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "admin-user"
+      }
+    }
+  ]
+}

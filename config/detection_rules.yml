@@ -1,0 +1,16 @@
+password_spray:
+  unique_user_threshold: 5
+  failed_attempt_threshold: 5
+
+iam_tampering:
+  risky_events:
+    - CreateUser
+    - DeleteUser
+    - AttachUserPolicy
+    - PutUserPolicy
+    - CreateAccessKey
+    - DeleteAccessKey
+    - UpdateAssumeRolePolicy
+    - DeactivateMFADevice
+    - DeleteVirtualMFADevice
+    - AuthorizeSecurityGroupIngress
